@@ -1,18 +1,32 @@
-#parent-div {
-  background: #b2beb5;
-  border: 0.1em solid black;
-}
-
-#default {
-  background: #DBE9F4;
-}
-
-#centered {
+#top-left-pos {
   background: #89cff0;
-  width: 50%;
-  margin: auto;
+  border: 0.1em solid black;
+  position: absolute;
+  width: 200px;
+  height: 100px;
+  z-index: 4;
 }
 
-#centered-text {
-  text-align: center;
+#bottom-right-tl-parent {
+  background: #dbe9f4;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
+#top-right-pos {
+  background: #89cff0;
+  border:  0.1em solid black;
+  position: absolute;
+  width: 200px;
+  height: 100px;
+  top: 0px;
+  right: 0px;
+}
+
+#bottom-left-tr-parent {
+  background: #dbe9f4;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
 }
