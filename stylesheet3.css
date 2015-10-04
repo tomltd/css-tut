@@ -1,0 +1,18 @@
+#parent-div {
+  background: #b2beb5;
+  border: 0.1em solid black;
+}
+
+#default {
+  background: #DBE9F4;
+}
+
+#centered {
+  background: #89cff0;
+  width: 50%;
+  margin: auto;
+}
+
+#centered-text {
+  text-align: center;
+}
